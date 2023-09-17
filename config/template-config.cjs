@@ -2,31 +2,24 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '宝宝, 早上好',
     desc: `
-      **{{date.DATA}}**
-      
+      今天是:{{date.DATA}}
+      今天是我们恋爱的第{{love_day.DATA}}天 
       下个休息日：{{holidaytts.DATA}}
-      
+      今天第一节课程:{{wx_course_schedule_0.DATA}} 
       ---
       
-      城市：{{city.DATA}}
+      今天{{city.DATA}}的天气如下:
       
-      天气：{{weather.DATA}}
+      天气：{{tian_api_weather_weather_0.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
-      
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
-      
-      {{comprehensive_horoscope.DATA}}
-      
-      ---
-      
-      今天是我们相识的第{{love_day.DATA}}天
-      
-      {{birthday_message.DATA}}
+      气温:{{tian_api_weather_lowest_0.DATA}}-{{tian_api_weather_highest_{offset}.DATA}}
+      日出时间:{{tian_api_weather_sunrise_0.DATA}}
+      日落时间:{{tian_api_weather_sunset_0.DATA}}
+      每天一言:{{tian_api_morning_greeting.DATA}}
+      推送人:小翁
+
       
       ---
       
