@@ -62,7 +62,7 @@ const USER_CONFIG = {
     morningGreeting: true,
   
     // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: true,
+    eveningGreeting: false,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 3,
@@ -85,16 +85,21 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '宝宝',
+          province: '福建',
+      // 所在城市或县区
+      city: '武夷山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6qZa6xZbDI6j4Er8EEr7uR-JMj8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '_KqV1mrs5N7JgdJ1avqYzIYSqc7mJfF1UxGkuxtYPLw',
+      useTemplateId: 'fwgamdwzw7ldFrTfPmvfrs48zxRoo2pXCEjn21SQluA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
+      horoscopeDateType: '今日',
+      openUrl: 'https://wangxinleo.cn',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '农历宝宝', year: '2001', date: '11-18',
+          type: '*生日', name: '农历生日', year: '2001', date: '11-18',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
