@@ -95,7 +95,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
       horoscopeDateType: '今日',
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://mikunakanoyyds-bing.hf.space/web/index.html#/',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
