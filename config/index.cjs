@@ -193,7 +193,7 @@ const USER_CONFIG = {
           ]
         }
     },
-    
+    }
   ],
 
 
