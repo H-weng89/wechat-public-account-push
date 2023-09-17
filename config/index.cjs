@@ -9,7 +9,6 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx153160a118913b46',
-USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '05def91a672776b17fa6314674513440',
 
@@ -89,9 +88,9 @@ USE_PASSAGE: 'push-plus',
       // 所在城市或县区
       city: '武夷山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '6709b147c55f4300b18acaa926167db6',
+      id: 'o6qZa6xZbDI6j4Er8EEr7uR-JMj8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: 'iKMTw_UhfEbQL7gh9eAJ49L-owMLD2gCgmji3XcViaw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-01',
       horoscopeDateType: '今日',
