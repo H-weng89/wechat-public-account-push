@@ -6,10 +6,10 @@ title: '宝宝, 早上好',
 desc: `
   今天是:{{date.DATA}}
 
-  今天是我们恋爱的第{{love_day.DATA}}天 
+  今天是我们恋爱的第 **{{love_day.DATA}}**天 
 
   今天第一节课程:{{wx_course_schedule_0.DATA}} 
-  ---
+  
   
   今天{{city.DATA}}的天气如下:
   
